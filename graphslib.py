@@ -353,7 +353,6 @@ if __name__ == '__main__':
     print(shortestDist)
     for i in path: print(i)
     '''
-    '''
     # A simple weighted bidirectional graph (Kruskal's algorithm)
     a = WeightedGraph(Node(1, data="A"))
     a.addNode(Node(2, data="B"))
@@ -374,4 +373,3 @@ if __name__ == '__main__':
     a.addVertex(5, 7, 9)
     a.addVertex(6, 7, 11)
     for i in a.kruskal()[0].vertices[::2]: print(i)
-    '''
